@@ -28,7 +28,7 @@ const MobileNav = () => {
                 </SheetTitle>
                 <nav className="flex flex-col gap-8 mt-12">
                     {links.map((link, index) => (
-                        <Link key={index} className={`uppercase text-lg font-medium hover:text-[--accent] transition-all ${
+                        <Link key={index} className={`uppercase text-md font-medium hover:text-[--accent] transition-all ${
                             pathName === link.href ? 'text-[--accent]' : ''
                         }`} href={link.href}>{link.label}</Link>
                     ))}

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ExperienceSlider from "./ExperienceSlider";
 import Skillset from "./SkillSet";
+import { RiFileDownloadLine } from "react-icons/ri";
 
 const About = () => {
     return(
@@ -13,7 +14,10 @@ const About = () => {
                     <p className="mb-3">I am a versatile and hardworking person currently working within the graphic & web design industry. I am looking for new opportunities to allow development and growth as well as using my existing skills.</p>
                     <p className="mb-3">I consider myself to be enthusiastic, self-motivated, reliable and responsible and am able to work both in a team environment as well as using my own initiative.</p>
                     <p className="mb-3">I enjoy new challenges, work well under pressure and can adhere to strict deadlines.</p>
-                    <Link className="text-[--accent] uppercase inline-block font-bold mt-4 text-sm" href={'/'}>Download My CV</Link>
+                    <Link className="group flex items-center text-[--accent] uppercase inline-block font-bold mt-4 text-sm" href={'/'}>
+                        Download My CV
+                        <RiFileDownloadLine className='ml-4 text-2xl group-hover:translate-y-[-4px] transition-transform' />
+                    </Link>
                 </div>
             </div>
 

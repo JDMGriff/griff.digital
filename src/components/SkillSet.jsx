@@ -6,11 +6,11 @@ const Skillset = () => {
         <div className="grid sm:grid-cols-3 gap-6">
             {[
             { skill: 'Adobe XD', level: '90%' },
-            { skill: 'Figma', level: '65%' },
-            { skill: 'CSS/Sass', level: '80%' },
             { skill: 'Adobe Illustrator', level: '75%' },
             { skill: 'HTML5', level: '95%' },
+            { skill: 'CSS3/Sass', level: '80%' },
             { skill: 'JavaScript', level: '70%' },
+            { skill: 'ReactJS', level: '50%' },
             ].map(({ skill, level }) => (
 
             <div key={skill} className="mb-4">

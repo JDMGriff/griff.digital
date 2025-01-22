@@ -7,7 +7,7 @@ const HeroMeta = () => {
             <p className='text-sm leading-loose'>
                 <span className='font-bold'>Email</span>
                 <br />
-                <Link className='border-b border-dashed border-yellow-400 pb-1' href='mailto:griffithsimg@gmail.com'>griffithsimg@gmail.com</Link>
+                <Link className='border-b border-dashed border-[--accent] pb-1' href='mailto:griffithsimg@gmail.com'>griffithsimg@gmail.com</Link>
             </p>
         </div>
         <div className='border-r border-[#3e4146] pr-4 mr-4 py-2'>
