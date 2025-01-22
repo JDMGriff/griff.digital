@@ -21,7 +21,8 @@ export async function generateMetadata({ params }) {
     }
 
     return {
-        title: `${item.title} | Griff.Digital`
+        title: `${item.title} | Griff.Digital`,
+        description: `${item.description}`
     };
 }
 

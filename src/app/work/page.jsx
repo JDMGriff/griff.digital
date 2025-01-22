@@ -1,6 +1,5 @@
-"use client"; // Marking this as a client-side component
+"use client";
 import { useState, useEffect } from "react";
-
 import SubpageHero from "@/components/SubpageHero";
 import WorkFilter from "@/components/WorkFilter";
 import WorkItems from "@/components/WorkItems";
@@ -9,8 +8,9 @@ const Work = () => {
     const [filter, setFilter] = useState("All");
     const [initialData, setInitialData] = useState([]);
 
-    // Fetch data once when the component mounts
     useEffect(() => {
+        document.title = "Work | Griff.Digital";
+
         async function fetchData() {
             const response = await fetch('/data/portfolio.json');
             const data = await response.json();
