@@ -1,0 +1,150 @@
+[
+    {
+        "title": "OneHub Southend",
+        "description": "Description of Project 1",
+        "category": ["Development", "Design"],
+        "link": "https://www.onehubsouthend.co.uk/",
+        "slug": "onehub-southend",
+        "createdIn": [
+            {"software": "Adobe XD", "colors" : {"background": "#470137", "text": "#F975FD"}},
+            {"software": "WordPress", "colors" : {"background": "#1C769B", "text": "--background"}}
+        ],
+        "status": "Live",
+        "involvement": ["UI/UX Design", "Build"],
+        "images": [
+            "/images/onehub-feature.jpg",
+            "project1-2.jpg"
+        ]
+    },
+    {
+        "title": "React To Do List",
+        "description": "Description of Project 2",
+        "category": ["Personal","Development"],        
+        "link": "https://to-do.griff.digital/",
+        "slug": "react-to-do-list",
+        "createdIn": [
+            { "software": "ReactJS", "colors": { "background": "#222222", "text": "#00D8FF" } }
+        ],
+        "status": "Live",
+        "involvement": ["Build"],
+        "images": [
+            "/images/todo-feature.jpg",
+            "project1-2.jpg"
+        ]
+    },
+    {
+        "title": "The Furniture Makers Company",
+        "description": "Description of Project 2",
+        "category": ["Design", "Development"],        
+        "link": "https://www.furnituremakers.org.uk/",
+        "slug": "the-furniture-makers-company",        
+        "createdIn": [
+            {"software": "Adobe XD", "colors" : {"background": "#470137", "text": "#F975FD"}},
+            {"software": "WordPress", "colors" : {"background": "#1C769B", "text": "--background"}}
+        ],
+        "status": "Live",
+        "involvement": ["UI/UX Design", "Build"],
+        "images": [
+            "/images/fmc-feature.jpg",
+            "project1-2.jpg"
+        ]
+    },
+    {
+        "title": "Dalau",
+        "description": "Description of Project 2",
+        "category": ["Design", "Development"],        
+        "link": "https://dalau.com/",
+        "slug": "dalau",        
+        "createdIn": [
+            {"software": "Adobe XD", "colors" : {"background": "#470137", "text": "#F975FD"}},
+            {"software": "WordPress", "colors" : {"background": "#1C769B", "text": "--background"}}
+        ],
+        "status": "Live",
+        "involvement": ["UI/UX Design", "Build"],
+        "images": [
+            "/images/dalau.jpg",
+            "project1-2.jpg"
+        ]
+    },
+    {
+        "title": "Hilson Moran",
+        "description": "Description of Project 2",
+        "category": ["Design", "Development"],        
+        "link": "https://www.hilsonmoran.com/",
+        "slug": "hilson-moran",
+        "createdIn": [
+            {"software": "Adobe XD", "colors" : {"background": "#470137", "text": "#F975FD"}},
+            {"software": "WordPress", "colors" : {"background": "#1C769B", "text": "--background"}}
+        ],
+        "status": "Live",
+        "involvement": ["UI/UX Design", "Build"],
+        "images": [
+            "/images/hilson-feature.jpg",
+            "project1-2.jpg"
+        ]
+    },    
+    {
+        "title": "PowerSonic",
+        "description": "Description of Project 2",
+        "category": ["Design"],        
+        "link": "https://www.power-sonic.com/",
+        "slug": "power-sonic",
+        "createdIn": [
+            {"software": "Adobe XD", "colors" : {"background": "#470137", "text": "#F975FD"}}
+        ],
+        "status": "Live",
+        "involvement": ["UI/UX Design"],
+        "images": [
+            "/images/powersonic-feature.jpg",
+            "project1-2.jpg"
+        ]
+    },
+    {
+        "title": "Investing Matters",
+        "description": "Description of Project 2",
+        "category": ["Design"],        
+        "link": "https://www.investingmatters.com/",
+        "slug": "investing-matters",
+        "createdIn": [
+            {"software": "Adobe XD", "colors" : {"background": "#470137", "text": "#F975FD"}}
+        ],
+        "status": "Live",
+        "involvement": ["UI/UX Design"],
+        "images": [
+            "/images/im-feature.jpg",
+            "project1-2.jpg"
+        ]
+    },    
+    {
+        "title": "Talis Projects",
+        "description": "Description of Project 2",
+        "category": ["Development"],        
+        "link": "https://www.talisprojects.co.uk/",
+        "slug": "talis-projects",
+        "createdIn": [
+            {"software": "WordPress", "colors" : {"background": "#1C769B", "text": "--background"}}
+        ],
+        "status": "Live",
+        "involvement": ["Build"],
+        "images": [
+            "/images/talis-feature.jpg",
+            "project1-2.jpg"
+        ]
+    },
+    {
+        "title": "Apollo Dental",
+        "description": "Description of Project 2",
+        "category": ["Development"],        
+        "link": "https://apollo-dental.revivedm.com/",
+        "slug": "apollo-dental",
+        "createdIn": [
+            {"software": "WordPress", "colors" : {"background": "#1C769B", "text": "--background"}}
+        ],
+        "status": "In Progress",
+        "involvement": ["Build"],
+        "images": [
+            "/images/apollo-feature.jpg",
+            "project1-2.jpg"
+        ]
+    }    
+  ]
