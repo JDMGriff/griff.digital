@@ -5,7 +5,7 @@ import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
 const WorkItemMeta = ({ createdIn, status, involvementItems, itemLink }) => {
     return(
         <div className="mb-16 relative">
-            <div className='absolute top-0 left-0'>
+            <div className='hidden absolute top-0 left-0 md:block'>
                 <Link className="flex items-center group text-[--accent]" href='/work/'>
                     <HiOutlineArrowNarrowLeft className='mr-2 text-2xl text-[--accent] group-hover:translate-x-[-4px] transition-transform' />
                     Back

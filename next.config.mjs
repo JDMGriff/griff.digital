@@ -14,6 +14,14 @@ const nextConfig = {
     },
     output: 'export',
     trailingSlash: true,
+    async rewrites() {
+        return [
+            {
+                source: '/',
+                destination: '/_next/static/scripts/gtm.js', // Ensure the GTM script is included
+            },
+        ];
+    },
 };
 
 export default nextConfig;
