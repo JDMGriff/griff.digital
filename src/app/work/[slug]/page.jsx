@@ -39,6 +39,22 @@ const WorkItem = async ({ params }) => {
         <>
             <SubpageHero title={item.title} />
             <WorkItemMeta createdIn={item.createdIn} status={item.status} involvementItems={item.involvement} itemLink={item.link} />
+            <div className="flex flex-wrap justify-between">
+                {
+                    item.images.map((image, index) => (
+                        index === 0 ? null
+                        :
+                        <img
+                            alt={item.title}
+                            className={`${index === 2 || index === 3 ? 'w-full md:w-[49%]' : 'w-full'} mb-8`}
+                            height="auto"
+                            key={index}
+                            src={image}
+                            width="100%"
+                        />
+                    ))
+                }
+            </div>
         </>
     );
 };

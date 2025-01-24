@@ -13,7 +13,10 @@
         "involvement": ["UI/UX Design", "Build"],
         "images": [
             "/images/onehub-feature.jpg",
-            "project1-2.jpg"
+            "/images/onehub-1.jpg",
+            "/images/onehub-2.jpg",
+            "/images/onehub-3.jpg",
+            "/images/onehub-4.jpg"
         ]
     },
     {
@@ -29,7 +32,10 @@
         "involvement": ["Build"],
         "images": [
             "/images/todo-feature.jpg",
-            "project1-2.jpg"
+            "/images/todo-1.jpg",
+            "/images/todo-2.jpg",
+            "/images/todo-3.jpg",
+            "/images/todo-4.jpg"
         ]
     },
     {
@@ -46,13 +52,16 @@
         "involvement": ["UI/UX Design", "Build"],
         "images": [
             "/images/fmc-feature.jpg",
-            "project1-2.jpg"
+            "/images/fmc-1.jpg",
+            "/images/fmc-2.jpg",
+            "/images/fmc-3.jpg",
+            "/images/fmc-4.jpg"
         ]
     },
     {
         "title": "Dalau",
         "description": "Description of Project 2",
-        "category": ["Design", "Development"],        
+        "category": ["Design", "Development"],
         "link": "https://dalau.com/",
         "slug": "dalau",        
         "createdIn": [
@@ -63,7 +72,10 @@
         "involvement": ["UI/UX Design", "Build"],
         "images": [
             "/images/dalau.jpg",
-            "project1-2.jpg"
+            "/images/dalau-1.jpg",
+            "/images/dalau-2.jpg",
+            "/images/dalau-3.jpg",
+            "/images/dalau-4.jpg"
         ]
     },
     {
@@ -80,7 +92,10 @@
         "involvement": ["UI/UX Design", "Build"],
         "images": [
             "/images/hilson-feature.jpg",
-            "project1-2.jpg"
+            "/images/hilson-1.jpg",
+            "/images/hilson-2.jpg",
+            "/images/hilson-3.jpg",
+            "/images/hilson-4.jpg"
         ]
     },    
     {
@@ -96,7 +111,10 @@
         "involvement": ["UI/UX Design"],
         "images": [
             "/images/powersonic-feature.jpg",
-            "project1-2.jpg"
+            "/images/powersonic-1.jpg",
+            "/images/powersonic-2.jpg",
+            "/images/powersonic-3.jpg",
+            "/images/powersonic-4.jpg"
         ]
     },
     {
@@ -112,7 +130,10 @@
         "involvement": ["UI/UX Design"],
         "images": [
             "/images/im-feature.jpg",
-            "project1-2.jpg"
+            "/images/im-1.jpg",
+            "/images/im-2.jpg",
+            "/images/im-3.jpg",
+            "/images/im-4.jpg"
         ]
     },    
     {
@@ -128,7 +149,10 @@
         "involvement": ["Build"],
         "images": [
             "/images/talis-feature.jpg",
-            "project1-2.jpg"
+            "/images/talis-1.jpg",
+            "/images/talis-2.jpg",
+            "/images/talis-3.jpg",
+            "/images/talis-4.jpg"
         ]
     },
     {
@@ -144,7 +168,10 @@
         "involvement": ["Build"],
         "images": [
             "/images/apollo-feature.jpg",
-            "project1-2.jpg"
+            "/images/apollo-1.jpg",
+            "/images/apollo-2.jpg",
+            "/images/apollo-3.jpg",
+            "/images/apollo-4.jpg"
         ]
     }    
   ]
