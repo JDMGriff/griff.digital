@@ -13,14 +13,13 @@ async function generateSitemap() {
     const workItems = JSON.parse(fs.readFileSync(portfolioDataPath, 'utf-8'));
     
     // Generate dynamic pages from work items
-    const dynamicPages = workItems.map(item => `work/${item.slug}`); // Assuming `slug` is the dynamic part
+    const dynamicPages = workItems.map(item => `work/${item.slug}/`); // Assuming `slug` is the dynamic part
 
     // Static pages
     const pages = [
       '',
-      'work',
-      'contact',
-      // Add other static pages
+      'work/',
+      'contact/',
     ];
 
     // Combine static and dynamic pages
