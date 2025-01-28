@@ -45,7 +45,8 @@ const WorkItemMeta = ({ createdIn, status, involvementItems, itemLink }) => {
                     </div>
                 </li>
             </ul>
-
+            
+            {itemLink.length != 0 ?
             <div className="text-white w-full mt-12">
                 <a className="group inline-flex items-center" target="_blank" href={itemLink}>
                     <span className="hidden lg:inline-block rounded-full bg-[--pale-primary] p-4 mr-4 group-hover:scale-[1.06] transition-all duration-300">
@@ -55,7 +56,9 @@ const WorkItemMeta = ({ createdIn, status, involvementItems, itemLink }) => {
                         {itemLink}
                     </span>
                 </a>
-            </div>            
+            </div>
+            :
+            null}           
         </div>
     )
 }

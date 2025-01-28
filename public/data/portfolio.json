@@ -173,5 +173,75 @@
             "/images/apollo-3.jpg",
             "/images/apollo-4.jpg"
         ]
-    }    
+    },
+    {
+        "title": "Beauty Salon",
+        "description": "Description of Project 2",
+        "category": ["Conceptual"],        
+        "link": "",
+        "slug": "beauty-salon",
+        "createdIn": [
+            {"software": "Adobe XD", "colors" : {"background": "#470137", "text": "#F975FD"}}
+        ],
+        "status": "Design Concept",
+        "involvement": ["UI/UX Design"],
+        "images": [
+            "/images/salon-feature.jpg",
+            "/images/salon-homepage.jpg",
+            "/images/salon-treatment.jpg"
+        ]
+    },
+    {
+        "title": "The Project Centre",
+        "description": "Description of Project 2",
+        "category": ["Conceptual"],        
+        "link": "",
+        "slug": "the-project-centre",
+        "createdIn": [
+            {"software": "Adobe XD", "colors" : {"background": "#470137", "text": "#F975FD"}}
+        ],
+        "status": "Design Concept",
+        "involvement": ["UI/UX Design"],
+        "images": [
+            "/images/pc-feature.jpg",
+            "/images/pc-1.jpg",
+            "/images/pc-2.jpg",
+            "/images/pc-3.jpg",
+            "/images/pc-4.jpg"
+        ]
+    },
+    {
+        "title": "F1 Redesign",
+        "description": "Description of Project 2",
+        "category": ["Conceptual"],        
+        "link": "",
+        "slug": "f1-redesign",
+        "createdIn": [
+            {"software": "Adobe XD", "colors" : {"background": "#470137", "text": "#F975FD"}}
+        ],
+        "status": "Design Concept",
+        "involvement": ["UI/UX Design"],
+        "images": [
+            "/images/f1-feature.jpg",
+            "/images/f1-homepage.jpg"
+        ]
+    },
+    {
+        "title": "Music Player Concept",
+        "description": "Description of Project 2",
+        "category": ["Conceptual"],        
+        "link": "",
+        "slug": "music-player-concept",
+        "createdIn": [
+            {"software": "Adobe XD", "colors" : {"background": "#470137", "text": "#F975FD"}}
+        ],
+        "status": "Design Concept",
+        "involvement": ["UI/UX Design"],
+        "images": [
+            "/images/player-feature.jpg",
+            "/images/player-1.png",
+            "/images/player-2.png",
+            "/images/player-3.png"
+        ]
+    }
   ]

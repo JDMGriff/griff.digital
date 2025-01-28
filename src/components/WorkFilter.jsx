@@ -7,6 +7,7 @@ const filterLinks = [
     { attribute: "Design", title: "Design" },
     { attribute: "Development", title: "Development" },
     { attribute: "Personal", title: "Personal" },
+    { attribute: "Conceptual", title: "Conceptual" },
 ];
 
 const WorkFilter = ({ setFilter }) => {

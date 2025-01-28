@@ -133,3 +133,9 @@ body {
 .hide-scrollbar::-webkit-scrollbar {
   display: none;  /* Safari and Chrome */
 }
+
+/* Manual override for large images */
+.music-player-concept img {
+  max-width: 40%;
+  margin: 0 auto
+}
