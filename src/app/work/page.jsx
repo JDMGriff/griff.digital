@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import { getWorkItems } from '@/utils/getWorkItems';
 import SubpageHero from "@/components/SubpageHero";
 import WorkFilter from "@/components/WorkFilter";
 import WorkItems from "@/components/WorkItems";
@@ -12,9 +13,8 @@ const Work = () => {
         document.title = "Work | Griff.Digital";
 
         async function fetchData() {
-            const response = await fetch('/data/portfolio.json');
-            const data = await response.json();
-            setInitialData(data);
+            const workItems = await getWorkItems();
+            setInitialData(workItems);
         }
         fetchData();
     }, []);
