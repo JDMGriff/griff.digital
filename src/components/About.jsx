@@ -1,4 +1,3 @@
-require('dotenv').config();
 import Link from "next/link";
 import ExperienceSlider from "./ExperienceSlider";
 import Skillset from "./SkillSet";
@@ -6,7 +5,6 @@ import { RiFileDownloadLine } from "react-icons/ri";
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
 
 const About = () => {
-    console.log(baseUrl);
     return(
         <div id="About" className="pt-20 pb-40 lg:pt-28">
             <div className="flex flex-col xl:flex-row xl:items-center justify-between">
