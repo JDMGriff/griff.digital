@@ -56,7 +56,8 @@ const ExperienceSlider = () => {
             <div className="glide__track" data-glide-el="track">
                 <ul className="glide__slides flex item-stretch justify-center">
                 {[
-                    { id: crypto.randomUUID(), company: 'Revive.Digital', role: 'Digital designer & front end developer', date: '2023 - Present' },
+                    { id: crypto.randomUUID(), company: 'Ink Digital', role: 'Lead developer', date: '2025 - Present' },
+                    { id: crypto.randomUUID(), company: 'Revive.Digital', role: 'Digital designer & front end developer', date: '2023 - 2025' },
                     { id: crypto.randomUUID(), company: 'NWI', role: 'Jr. Full stack developer', date: '2022 - 2023' },
                     { id: crypto.randomUUID(), company: 'Revive.Digital', role: 'Digital designer & front end developer', date: '2021 - 2022' },
                     { id: crypto.randomUUID(), company: 'Page Creative Ltd:', role: 'Digital designer & front end developer', date: '2018 - 2021' },
