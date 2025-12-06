@@ -25,7 +25,7 @@ const WorkItems = ({ initialData, filter }) => {
                     key={index}
                     className={`w-full md:w-[48%] lg:row-start-1 lg:row-span-2 mb-14 ${animationState === "fade-out" ? "opacity-0" : "opacity-100"} transition-all duration-500 hover:scale-[1.03]`}
                 >
-                    <Link href={`/work/${item.slug}`}>
+                    <Link href={`/work/${item.slug}/`}>
                         <h3 className="bg-[--pale-primary] p-8 text-white text-2xl font-bold">{item.title}</h3>
                         <img
                             className="w-full"

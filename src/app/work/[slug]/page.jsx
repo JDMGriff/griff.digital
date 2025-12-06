@@ -4,6 +4,7 @@ import WorkItemMeta from "@/components/WorkItemMeta";
 
 export async function generateStaticParams() {
     const workItems = await getWorkItems();
+    console.log('Generated slugs:', workItems.map((workItem) => workItem.slug));
     return workItems.map((workItem) => ({
         slug: workItem.slug,
     }));

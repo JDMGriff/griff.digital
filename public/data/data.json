@@ -24,7 +24,7 @@
         "description": "Description of Project 1",
         "category": ["Conceptual", "Design"],
         "link": "",
-        "slug": "tech-talent",
+        "slug": "techtalent",
         "createdIn": [
             {"software": "Adobe XD", "colors" : {"background": "#470137", "text": "#F975FD"}}
         ],
