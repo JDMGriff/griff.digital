@@ -5,8 +5,8 @@ import { getHomepageData } from "@/utils/getHomepageData";
 
 export async function generateMetadata() {
     return {
-        title: "Griff.Digital | Front End Developer & Digital Designer",
-        description: "Front end developer and digital designer based in the UK. Specialising in building websites and web applications using modern technologies.",
+        title: "Griff.Digital | Front-End Developer & WordPress Specialist",
+        description: "Front-end and WordPress developer in Essex. Bespoke themes, PHP, ACF Blocks, Tailwind CSS and over 10 years of digital design and development experience.",
     };
 }
 

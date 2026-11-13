@@ -7,15 +7,17 @@ const WorkItems = ({ initialData, filter }) => {
     const [animationState, setAnimationState] = useState("fade-in");
 
     useEffect(() => {
+        const portfolioItems = initialData.filter(item => !item.archived);
         const filteredData = filter === "All"
-            ? initialData
-            : initialData.filter(item => item.category.includes(filter));
+            ? portfolioItems
+            : portfolioItems.filter(item => item.category.includes(filter));
 
         setAnimationState("fade-out");
-        setTimeout(() => {
+        const timeout = setTimeout(() => {
             setVisibleItems(filteredData);
             setAnimationState("fade-in"); // Reset animation after data change
-        }, 250); // Duration of the fade-out animation (adjust as needed)
+        }, 250);
+        return () => clearTimeout(timeout);
     }, [filter, initialData]); // Re-run on filter or initialData change
 
     return (
@@ -27,6 +29,7 @@ const WorkItems = ({ initialData, filter }) => {
                 >
                     <Link href={`/work/${item.slug}/`}>
                         <h3 className="bg-[--pale-primary] p-8 text-white text-2xl font-bold">{item.title}</h3>
+                        <p className="px-8 py-5 bg-[--pale-primary] text-sm leading-relaxed">{item.description}</p>
                         <img
                             className="w-full"
                             src={item.images[0]}
