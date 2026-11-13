@@ -5,7 +5,7 @@ const path = require('path');
 // This is where your portfolio data will be located in the `out` folder after export
 const portfolioDataPath = path.resolve(__dirname, 'out', 'data', 'portfolio.json');
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+const baseUrl = `${(process.env.NEXT_PUBLIC_BASE_URL || "https://griff.digital").replace(/\/$/, "")}/`;
 
 async function generateSitemap() {
   try {

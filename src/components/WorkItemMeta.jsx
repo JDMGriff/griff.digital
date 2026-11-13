@@ -33,7 +33,7 @@ const WorkItemMeta = ({ createdIn, status, involvementItems, itemLink }) => {
 
                 <li className="font-semibold text-sm flex lg:items-center flex-col my-4 lg:flex-row lg:text-base lg:my-0">Status:
                     <div className="flex items-center mt-4 lg:ml-2 lg:mt-0">
-                        <span className="w-[16px] h-[16px] bg-[#20B52F] inline-block rounded-full lg:ml-2 mr-1"></span> {status}
+                        <span className={`w-[16px] h-[16px] ${status === "Live" ? "bg-[#20B52F]" : "bg-amber-500"} inline-block rounded-full lg:ml-2 mr-1`}></span> {status}
                     </div>
                 </li>
 
@@ -48,7 +48,7 @@ const WorkItemMeta = ({ createdIn, status, involvementItems, itemLink }) => {
             
             {itemLink.length != 0 ?
             <div className="text-white w-full mt-12">
-                <a className="group inline-flex items-center" target="_blank" href={itemLink}>
+                <a className="group inline-flex items-center" target="_blank" rel="noopener noreferrer" href={itemLink}>
                     <span className="hidden lg:inline-block rounded-full bg-[--pale-primary] p-4 mr-4 group-hover:scale-[1.06] transition-all duration-300">
                         <IoIosLink className="text-[--accent] text-2xl" />
                     </span>

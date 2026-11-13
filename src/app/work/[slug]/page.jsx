@@ -1,10 +1,10 @@
 import { getWorkItems } from '@/utils/getWorkItems';
+import { notFound } from "next/navigation";
 import SubpageHero from "@/components/SubpageHero";
 import WorkItemMeta from "@/components/WorkItemMeta";
 
 export async function generateStaticParams() {
     const workItems = await getWorkItems();
-    console.log('Generated slugs:', workItems.map((workItem) => workItem.slug));
     return workItems.map((workItem) => ({
         slug: workItem.slug,
     }));
@@ -33,13 +33,29 @@ const WorkItem = async ({ params }) => {
     const item = workItems.find((workItem) => workItem.slug === slug);
 
     if (!item) {
-        return <div>Work item not found</div>;
+        notFound();
     }
 
     return (
         <>
             <SubpageHero title={item.title} />
             <WorkItemMeta createdIn={item.createdIn} status={item.status} involvementItems={item.involvement} itemLink={item.link} />
+            <section className="max-w-[1000px] mb-16" aria-label="About this project">
+                <p className="text-xl leading-relaxed mb-6">{item.description}</p>
+                {item.overview && <p className="leading-relaxed mb-8">{item.overview}</p>}
+                {item.focus && (
+                    <div className="grid md:grid-cols-2 gap-8 mb-8">
+                        {item.focus.map(([heading, copy]) => (
+                            <div key={heading}>
+                                <h2 className="text-xl font-bold mb-3">{heading}</h2>
+                                <p className="leading-relaxed">{copy}</p>
+                            </div>
+                        ))}
+                    </div>
+                )}
+                {item.attribution && <p className="text-sm text-[--accent] mb-3">{item.attribution}</p>}
+                {item.websiteNote && <p className="text-sm leading-relaxed">{item.websiteNote}</p>}
+            </section>
             <div className={`flex flex-wrap justify-between ${item.slug}`}>
                 {
                     item.images.map((image, index) => (
